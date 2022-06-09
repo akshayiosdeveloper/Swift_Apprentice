@@ -7,11 +7,11 @@ Property wrappers must contain a wrappedValue field that provides the interface 
 @propertyWrapper struct Captialized {
     var wrappedValue: String {
         didSet {
-            wrappedValue = wrappedValue.uppercased()
+            wrappedValue = wrappedValue.capitalized
         }
     }
     init(wrappedValue: String) {
-        self.wrappedValue = wrappedValue.uppercased()
+        self.wrappedValue = wrappedValue.capitalized
     }
 }
 struct Name {
