@@ -11,7 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("\(self) -> allocated")
+        var vals: Set<STRING> = Set()
+        vals.insert
+//        let vals = ("val" , 1)
+//        print("\(self) -> allocated")
         // Do any additional setup after loading the view.
     }
     
